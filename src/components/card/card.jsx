@@ -11,9 +11,9 @@ import Eye from '../../assets/icon-view.svg'
 export default function card() {
   return (
     // <div>card</div>
-    <div className="card  flex flex-col justify-center items-center text-white rounded-xl p-4 shadow-2xl   bg-[#15273f] w-[18rem] cursor-pointer">
+    <div className="card  flex flex-col justify-center items-center text-white rounded-xl p-4 shadow-2xl  bg-[#15273f] w-[18rem] cursor-pointer max-[400px]:h-[90%]">
       <div className="card-image w-full flex justify-center mb-8 relative">
-        <img className='w-[90%] rounded-lg transition duration-300' src={Equi} alt="Equilibrium" />
+        <img className='w-[90%] max-[400px]:w-[70%] rounded-lg transition duration-300' src={Equi} alt="Equilibrium" />
         <div className="absolute inset-0 bg-[#00fff8] rounded-lg opacity-0 active:opacity-70 transition-opacity duration-300"></div>
         <img className='view absolute  top-24 active:block  duration-300 z-5' src={Eye} alt="" />
         
