@@ -1,0 +1,6 @@
+.view {
+    display: none; 
+}
+.card-image:active .view {
+    display: block; 
+}
